@@ -1,5 +1,5 @@
 body, h2 {
-    background-color: #C3CCD3;
+    background-color: #e1b9af;
     font-family: oxtail, serif;
     font-weight: 400;
     font-style: normal;
@@ -15,7 +15,7 @@ main {
     display: block;
     padding: 74px 0 90px;
     width: 85%;
-    max-width: 680px;
+    /* max-width: 680px; */
     margin: 0 auto;
     text-align: center;
     overflow-x: hidden;
@@ -38,16 +38,23 @@ h1 {
     font-style: italic;
 }
 
-img {
-    width: 18%;
+.logo {
+    width: 10%;
+    margin-bottom: 90px;
+}
+
+.banner {
+    width: 100%;
     margin-bottom: 90px;
 }
 
 .youtube-frame iframe {
     position: relative;
-    width: 622px;
-    height: 350px;
-    border: 25px solid #fbd0cb;
+    /* width: 622px;
+    height: 350px; */
+    width: 800px;
+    height: 451px;
+    border: 25px solid rgba(219, 171, 159, .9);
     margin-bottom: 90px;
 }
 
@@ -84,7 +91,6 @@ li {
 }
 
 .tour, .contact, .socials {
-
     margin-bottom: 90px;
 }
 
@@ -124,7 +130,7 @@ a i {
 
 @media screen and (max-width: 599px) {
     main {
-        padding: 54px 0 60px;
+        padding: 0px 0 60px;
         width: 100%;
     }
 
@@ -140,7 +146,7 @@ a i {
         position: relative;
         width: 355px;
         height: 200px;
-        border: 12px solid #fbd0cb;
+        border: 12px solid rgba(219, 171, 159, .9);
         margin-bottom: 90px;
     }
 }
