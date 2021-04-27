@@ -1,5 +1,5 @@
 body, h2 {
-    background-color: #e1b9af;
+    background-color: #dbbab1;
     font-family: oxtail, serif;
     font-weight: 400;
     font-style: normal;
@@ -46,6 +46,7 @@ h1 {
 .banner {
     width: 100%;
     margin-bottom: 90px;
+    opacity: 0.9;
 }
 
 .youtube-frame iframe {
@@ -54,7 +55,18 @@ h1 {
     height: 350px; */
     width: 800px;
     height: 451px;
-    border: 25px solid rgba(219, 171, 159, .9);
+    border: 25px solid rgb(213, 173, 165);
+    margin-bottom: 90px;
+}
+
+.spotify-frame iframe {
+    opacity: 0.9;
+    position: relative;
+    /* width: 622px;
+    height: 350px; */
+    /* width: 800px;
+    height: 451px;
+    border: 25px solid rgb(213, 173, 165); */
     margin-bottom: 90px;
 }
 
@@ -146,7 +158,7 @@ a i {
         position: relative;
         width: 355px;
         height: 200px;
-        border: 12px solid rgba(219, 171, 159, .9);
+        border: 12px solid rgb(213, 173, 165);
         margin-bottom: 90px;
     }
 }
